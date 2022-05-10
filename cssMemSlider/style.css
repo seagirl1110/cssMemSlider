@@ -1,0 +1,16 @@
+body {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #795175;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    border: 2px solid #572866;
+    padding: 10px 30px;
+}
