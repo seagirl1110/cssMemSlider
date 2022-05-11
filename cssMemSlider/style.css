@@ -18,7 +18,7 @@ body {
 }
 
 .slider__radio-wrapper {
-    display: none;
+    visibility: hidden;
 }
 
 .slider__img-wrapper {
@@ -48,12 +48,25 @@ body {
     height: 4em;
     background-color: transparent;
     margin: 0 1em;
-    border: 0.1em solid #572866;
-    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .slider__controls:hover {
-    background-color: #572866;
+    cursor: pointer;
 }
 
-.slider__controls-inner {}
+.slider__controls-inner {
+    width: 2em;
+    height: 2em;
+    border: 0.1em solid #572866;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.slider__controls:hover .slider__controls-inner {
+    background-color: #572866;
+    cursor: pointer;
+}
