@@ -3,14 +3,27 @@ body {
     box-sizing: border-box;
     margin: 0;
     background-color: #795175;
+    border: 0.3em solid #572866;
+    font-size: 0.625rem;
 }
 
 * {
     box-sizing: border-box;
 }
 
-.wrapper {
-    height: 100vh;
-    border: 2px solid #572866;
-    padding: 10px 30px;
+.slider {
+    padding: 1em 3em;
 }
+
+.slider__container {
+}
+
+.slider__img-wrapper {}
+
+.slider__img {}
+
+.slider__controls {}
+
+.slider__text-wrapper {}
+
+.slider__text {}
