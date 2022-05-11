@@ -16,3 +16,44 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.slider__radio-wrapper {
+    display: none;
+}
+
+.slider__img-wrapper {
+    display: flex;
+}
+
+.slider__img {}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.slider__text-wrapper {
+    display: flex;
+}
+
+.slider__text {}
+
+.slider__controls-wrapper {
+    display: flex;
+}
+
+.slider__controls {
+    width: 4em;
+    height: 4em;
+    background-color: transparent;
+    margin: 0 1em;
+    border: 0.1em solid #572866;
+    border-radius: 50%;
+}
+
+.slider__controls:hover {
+    background-color: #572866;
+}
+
+.slider__controls-inner {}
