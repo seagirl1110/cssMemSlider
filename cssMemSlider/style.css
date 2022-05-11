@@ -1,29 +1,18 @@
-body {
-    width: 100%;
+* {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
     background-color: #795175;
     border: 0.3em solid #572866;
     font-size: 0.625rem;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 .slider {
     padding: 1em 3em;
+    display: flex;
+    flex-direction: column;
 }
-
-.slider__container {
-}
-
-.slider__img-wrapper {}
-
-.slider__img {}
-
-.slider__controls {}
-
-.slider__text-wrapper {}
-
-.slider__text {}

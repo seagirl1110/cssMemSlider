@@ -11,31 +11,31 @@
 
 <body>
     <div class="slider">
-        <div class="slider__container">
-            <label for="controls-1" class="slider__img-wrapper">
-                <img src="./assets/slider-img-1.png" alt="slider-img" class="slider__img">
-            </label>
-            <label for="controls-2" class="slider__img-wrapper">
-                <img src="./assets/slider-img-2.jpg" alt="slider-img" class="slider__img">
-            </label>
-            <label for="controls-3" class="slider__img-wrapper">
-                <img src="./assets/slider-img-1.png" alt="slider-img" class="slider__img">
-            </label>
-            <label for="controls-4" class="slider__img-wrapper">
-                <img src="./assets/slider-img-2.jpg" alt="slider-img" class="slider__img">
-            </label>
+        <div class="slider__radio-wrapper">
+            <input type="radio" name="controls" id="controls-1" checked></input>
+            <input type="radio" name="controls" id="controls-2"></input>
+            <input type="radio" name="controls" id="controls-3"></input>
+            <input type="radio" name="controls" id="controls-4"></input>
         </div>
-        <div class="slider__controls-wrapper">
-            <input type="radio" id="controls-1" class="slider__controls"></input>
-            <input type="radio" id="controls-2" class="slider__controls"></input>
-            <input type="radio" id="controls-3" class="slider__controls"></input>
-            <input type="radio" id="controls-4" class="slider__controls"></input>
+        <div class="slider__img-wrapper">
+            <img src="./assets/slider-img-1.png" alt="slider-img" class="slider__img">
+            <img src="./assets/slider-img-2.jpg" alt="slider-img" class="slider__img">
+            <img src="./assets/slider-img-1.png" alt="slider-img" class="slider__img">
+            <img src="./assets/slider-img-2.jpg" alt="slider-img" class="slider__img">
         </div>
-        <div class="slider__text-wrapper">
-            <label for="controls-1" class="slider__text">love notes</label>
-            <label for="controls-2" class="slider__text">developers' ark</label>
-            <label for="controls-3" class="slider__text">love notes</label>
-            <label for="controls-4" class="slider__text">developers' ark</label>
+        <div class="wrapper">
+            <div class="slider__text-wrapper">
+                <p for="controls-1" class="slider__text">love notes</p>
+                <p for="controls-2" class="slider__text">developers' ark</p>
+                <p for="controls-3" class="slider__text">love notes</p>
+                <p for="controls-4" class="slider__text">developers' ark</p>
+            </div>
+            <div class="slider__controls-wrapper">
+                <label for="controls-1" class="slider__controls"></label>
+                <label for="controls-2" class="slider__controls"></label>
+                <label for="controls-3" class="slider__controls"></label>
+                <label for="controls-4" class="slider__controls"></label>
+            </div>
         </div>
     </div>
 </body>
