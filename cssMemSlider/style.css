@@ -6,6 +6,7 @@
 
 body {
     width: 100%;
+    height: 100vh;
     background-color: #795175;
     border: 0.3em solid #572866;
     font-size: 0.625rem;
@@ -26,23 +27,29 @@ body {
 
 .slider__img-wrapper {
     width: 100%;
-    max-width: 55em;
     margin: 0 auto;
     border: 0.3em solid #572866;
     display: flex;
     overflow: hidden;
 }
 
-.slider__img {
-    display: inline-block;
+.slider__img-inner {
+    width: 100%;
     flex-shrink: 0;
-    width: calc(55em - 0.6em);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider__img {
+    display: block;
 }
 
 .slider__container {
+    width: 80%;
     display: flex;
     justify-content: space-between;
-    margin-top: 2em;
+    margin: 2em auto 0;
 }
 
 .slider__text-wrapper {
