@@ -12,6 +12,9 @@ body {
 }
 
 .slider {
+    width: 100%;
+    max-width: 100em;
+    margin: 0 auto;
     padding: 1em 3em;
     display: flex;
     flex-direction: column;
@@ -22,12 +25,21 @@ body {
 }
 
 .slider__img-wrapper {
+    width: 100%;
+    max-width: 55em;
+    margin: 0 auto;
+    border: 0.3em solid #572866;
     display: flex;
+    overflow: hidden;
 }
 
-.slider__img {}
+.slider__img {
+    display: inline-block;
+    flex-shrink: 0;
+    width: calc(55em - 0.6em);
+}
 
-.wrapper {
+.slider__container {
     display: flex;
     justify-content: space-between;
     margin-top: 2em;
