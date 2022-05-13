@@ -180,4 +180,10 @@ body {
         align-self: center;
         margin: 0 0 0.5em;
     }
+
+    #controls-1:checked~.slider__img-wrapper>.slider__img-inner:nth-child(1),
+    #controls-1:checked~.slider__container .slider__text--1 {
+        transform: translate(-2%);
+        margin: 0 0 0 2%;
+    }
 }
