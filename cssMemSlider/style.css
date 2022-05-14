@@ -81,7 +81,7 @@ body {
 }
 
 .slider__text-wrapper {
-    max-width: 30em;
+    max-width: 40em;
     display: flex;
     align-items: center;
     overflow: hidden;
