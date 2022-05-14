@@ -120,16 +120,18 @@ body {
 }
 
 .slider__controls:hover .slider__controls-inner {
-    background-color: #713585;
+    background-color: #652e77;
+    border: 0.1em solid #795175;
     box-shadow: 0 0 0.5em 1.5em #713585;
 }
 
-.slider__controls:hover .slider__controls-inner,
+.slider__controls:active .slider__controls-inner,
 #controls-1:checked~.slider__container .slider__controls-inner--1,
 #controls-2:checked~.slider__container .slider__controls-inner--2,
 #controls-3:checked~.slider__container .slider__controls-inner--3,
 #controls-4:checked~.slider__container .slider__controls-inner--4 {
     background-color: #572866;
+    border: 0.1em solid #572866;
 }
 
 #controls-1:checked~.slider__img-wrapper>.slider__img-inner:nth-child(1),
