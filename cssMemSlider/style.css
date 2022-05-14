@@ -98,6 +98,7 @@ body {
 
 .slider__controls-wrapper {
     display: flex;
+    align-self: center;
 }
 
 .slider__controls {
@@ -179,7 +180,6 @@ body {
     }
 
     .slider__controls-wrapper {
-        align-self: center;
         margin: 0 0 0.5em;
     }
 
