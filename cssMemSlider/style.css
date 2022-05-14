@@ -157,7 +157,7 @@ body {
     opacity: 1;
 }
 
-@media screen and (max-width: 675px) {
+@media (max-width: 675px), (max-height: 675px) {
     .main {
         padding: 0;
     }
